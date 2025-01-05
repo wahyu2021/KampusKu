@@ -20,7 +20,7 @@
 - **Bahasa Pemrograman:** PHP Native
 - **Database:** MySQL/MariaDB
 - **Frontend:** HTML, CSS, JavaScript
-- **Framework CSS:** Bootstrap (opsional, jika digunakan)
+- **Framework CSS:** Bootstrap
 - **Server:** Apache (disarankan menggunakan XAMPP untuk local development)
 
 ## Instalasi
