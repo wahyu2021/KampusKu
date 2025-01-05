@@ -27,7 +27,7 @@
 
 1. **Clone atau Download Repository**  
    ```bash
-   git clone https://github.com/wahyu2021/kampusku.git
+   git clone https://github.com/wahyu2021/KampusKu.git
    ```
 
 2. **Pindahkan ke Direktori Server**  
