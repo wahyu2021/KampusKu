@@ -1,6 +1,6 @@
 -- Membuat database
-CREATE DATABASE kampusku;
-USE kampusku;
+CREATE DATABASE KampusKu;
+USE KampusKu;
 
 -- Tabel kelas
 CREATE TABLE kelas (
