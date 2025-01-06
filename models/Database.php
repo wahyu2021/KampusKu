@@ -8,7 +8,8 @@ class Database {
     private $port;
     private $pdo;
 
-    public function __construct(array $config) {
+    public function __construct() {
+        $config = require_once __DIR__ . "/../config/config.php";
         $this->host = $config['host'];
         $this->dbname = $config['dbname'];
         $this->username = $config['username'];
@@ -35,5 +36,4 @@ class Database {
     public function closeConnection() {
         $this->pdo = null;
     }
-
 }
