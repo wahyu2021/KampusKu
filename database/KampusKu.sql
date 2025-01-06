@@ -3,6 +3,8 @@
 CREATE DATABASE sistem_kampus;
 USE sistem_kampus;
 
+DROP DATABASE sistem_kampus;
+
 -- Tabel kelas
 CREATE TABLE kelas (
     nama_kelas CHAR(4) PRIMARY KEY NOT NULL
@@ -54,11 +56,12 @@ CREATE TABLE jadwal (
 -- Tabel nilai
 CREATE TABLE nilai (
     kode_nilai CHAR(4) PRIMARY KEY NOT NULL,
-    tugas FLOAT NOT NULL,
-    uts FLOAT NOT NULL,
-    uas FLOAT NOT NULL,
+    tugas DECIMAL(5,2) NOT NULL,
+    uts DECIMAL(5,2) NOT NULL,
+    uas DECIMAL(5,2) NOT NULL,
     kode_mk CHAR(4),
     nim CHAR(12),
     FOREIGN KEY (kode_mk) REFERENCES matakuliah(kode_mk) ON DELETE SET NULL,
     FOREIGN KEY (nim) REFERENCES mahasiswa(nim) ON DELETE SET NULL
 );
+
