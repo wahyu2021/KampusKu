@@ -1,6 +1,7 @@
+-- Active: 1728734776356@@127.0.0.1@3306@sistem_kampus
 -- Membuat database
-CREATE DATABASE KampusKu;
-USE KampusKu;
+CREATE DATABASE sistem_kampus;
+USE sistem_kampus;
 
 -- Tabel kelas
 CREATE TABLE kelas (
