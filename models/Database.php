@@ -29,11 +29,11 @@ class Database {
         }
     }
 
-    public function getConnection() {
+    public function getConnection(): PDO{
         return $this->pdo;
     }
 
-    public function closeConnection() {
+    public function closeConnection(): void{
         $this->pdo = null;
     }
 }

@@ -1,17 +1,17 @@
 <?php
 
 class Kelas{
-    private $nama_kelas;
+    private string $namaKelas;
 
-    public function __construct($nama_kelas){
-        $this->nama_kelas = $nama_kelas;
+    public function __construct(string $namaKelas){
+        $this->namaKelas = $namaKelas;
     }
 
-    public function getNamaKelas(){
-        return $this->nama_kelas;
+    public function getNamaKelas(): string{
+        return $this->namaKelas;
     }
 
-    public function setNamaKelas($nama_kelas){
-        $this->nama_kelas = $nama_kelas;
+    public function setNamaKelas(string $namaKelas): void{
+        $this->namaKelas = $namaKelas;
     }
 }
