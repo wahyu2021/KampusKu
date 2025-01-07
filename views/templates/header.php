@@ -12,25 +12,7 @@
     <?php include_once __DIR__ . "/sidebar.php" ?>
 
     <div class="flex-grow-1" id="mainContent">
-       <div class="d-flex flex-column">
-            <div class="p-2 border-bottom bg-light">
-                <button class="btn border d-md-none" id="toggleSidebar">
-                        ☰
-                </button>
-
-                <div class="d-md-flex justify-content-end align-items-center gap-2 d-none">
-                    <img src="../../assets/images/profile.png" alt="" width="40" height="40" class="rounded-circle">
-                    <div class="dropdown">
-                        <button class="btn border dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Profile
-                        </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            
+        <div class="bg-second-sidebar w-full p-1">
+            <button class="btn  text-white " id="toggleSidebar">☰</button>
+        </div>
 

@@ -4,12 +4,14 @@ body {
 
 .sidebar {
     height: 100vh;
-    background-color: #f8f9fa;
-    border-right: 1px solid #dee2e6;
+}
+
+.bg-sidebar{
+    background-color: #7C444F;
 }
 
 .sidebar .nav-link {
-    color: #495057;
+    color: rgb(204, 204, 204);
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -17,8 +19,15 @@ body {
 }
 
 .sidebar .nav-link:hover {
-    background-color: #e9ecef;
-    color: #007bff;
+    color: rgb(255, 255, 255);
+}
+
+.sidebar-active{
+    color: rgb(255, 255, 255);
+}
+
+.bg-second-sidebar{
+    background-color: #91505d;
 }
 
 #sidebar {
@@ -45,13 +54,6 @@ body {
 #mainContent.expanded {
     margin-left: 0; /* Expand main content when sidebar is hidden */
 }
-
-
-
-#toggleSidebar:hover {
-    background-color: #0056b3;
-}
-
 
 @media (max-width: 768px) {
     #sidebar {
