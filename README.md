@@ -1,6 +1,6 @@
 # KampusKu
 
-**KampusKu** adalah sistem manajemen kampus berbasis web yang dibangun menggunakan PHP Native. Sistem ini dirancang untuk membantu dalam pengelolaan data kampus, termasuk data dosen, mahasiswa, mata kuliah, nilai, dan kelas.
+**KampusKu** 
 
 ## Fitur Utama
 
