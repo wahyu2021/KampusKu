@@ -81,5 +81,4 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 ---
 
-**Dibuat oleh:** Wahyu Wahid Nugroho  
-D4 Manajemen Informatika - Politeknik Negeri Sriwijaya
+
