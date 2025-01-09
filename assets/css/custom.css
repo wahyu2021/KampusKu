@@ -1,0 +1,20 @@
+.bg-custom-primary {
+    background-color: #2E5077;
+}
+.text-custom-primary {
+    color: #2E5077;
+}
+
+.bg-custom-secondary{
+    background-color: #595959;
+}
+
+.text-custom-secondary{
+    color: #4DA1A9;
+}
+
+.custom-shadow-box{
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.75);
+}
